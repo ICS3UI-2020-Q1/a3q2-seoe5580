@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Sample 1",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "yes\r\nyes",
+      "output": "Does the animal have feathers?\r\nDoes the animal swim?\r\nThis is a duck",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Sample 2",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "no\r\nyes",
+      "output": "Does the animal have feathers?\r\nDoes the animal have legs?\r\nThis is a lizard",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
